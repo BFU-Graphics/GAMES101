@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-if (MSVC)
+if (WIN32)
     include("E:/Git_Repos/vcpkg/scripts/buildsystems/vcpkg.cmake")
 endif ()
 project(RayTracing)
